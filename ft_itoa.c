@@ -36,7 +36,7 @@ char	*ft_itoa(int n)
 	nb = n;
 	s_len = 0;
 	defsign(&nb, &s_len, &s);
-		if (!s)
+	if (!s)
 		return (NULL);
 	if (nb == 0)
 		s[0] = '0';
