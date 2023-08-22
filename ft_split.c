@@ -2,9 +2,12 @@
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: edelarbr <edelarbr@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
+/*                                                    +:+ +:+
+	+:+     */
+/*   By: edelarbr <edelarbr@student.42.fr>          +#+  +:+
+	+#+        */
+/*                                                +#+#+#+#+#+
+	+#+           */
 /*   Created: 2022/11/23 17:04:24 by edelarbr          #+#    #+#             */
 /*   Updated: 2022/11/23 17:04:24 by edelarbr         ###   ########.fr       */
 /*                                                                            */
@@ -12,9 +15,10 @@
 
 #include "libft.h"
 
+
 static size_t	nextlen(const char *s, size_t i, char c)
 {
-	size_t	len;
+	size_t len;
 
 	len = 0;
 	while (s[i] == c)
@@ -29,8 +33,8 @@ static size_t	nextlen(const char *s, size_t i, char c)
 
 static size_t	wordcount(const char *s, char c)
 {
-	size_t	count;
-	size_t	i;
+	size_t count;
+	size_t i;
 
 	i = 1;
 	count = 0;
@@ -45,8 +49,8 @@ static size_t	wordcount(const char *s, char c)
 
 static char	*nextword(const char *s, size_t *i, char c, size_t len)
 {
-	char	*cpy;
-	size_t	y;
+	char *cpy;
+	size_t y;
 
 	y = 0;
 	while (s[*i] == c)
@@ -65,7 +69,7 @@ static char	*nextword(const char *s, size_t *i, char c, size_t len)
 
 static char	**freeall(char **tab, size_t indice)
 {
-	size_t	y;
+	size_t y;
 
 	y = 0;
 	while (y <= indice)
@@ -79,9 +83,9 @@ static char	**freeall(char **tab, size_t indice)
 
 char	**ft_split(const char *s, char c)
 {
-	size_t	i;
-	size_t	y;
-	char	**tab;
+	size_t i;
+	size_t y;
+	char **tab;
 
 	i = 0;
 	y = 0;
