@@ -1,0 +1,25 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: edelarbr <edelarbr@student.42mulhouse.fr>  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/11/17 16:17:55 by edelarbr          #+#    #+#             */
+/*   Updated: 2026/04/24 09:06:28 by edelarbr         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../libft.h"
+void	ft_lstadd_back(t_list **lst, t_list *new)
+{
+	t_list	*lastlink;
+
+	if (!*lst)
+	{
+		*lst = new;
+		return ;
+	}
+	lastlink = ft_lstlast(*lst);
+	lastlink->next = new;
+}
