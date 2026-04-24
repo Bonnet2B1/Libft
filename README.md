@@ -4,7 +4,7 @@ This is the first project in the 42 school curriculum.
 I started this project while waiting for 42's admission decision after my piscine.
 That gave Libft a special meaning for me, and I still feel strongly attached to what it represents in my journey.
 
-[Technologies Used](#-technologies-used) • [Features](#-features) • [The Process](#-the-process) • [What I Learned](#-what-i-learned) • [How It Could Be Improved](#-how-it-could-be-improved) • [How to Run the Project](#-how-to-run-the-project)
+[🛠️ Technologies Used](#-technologies-used) • [✨ Features](#-features) • [🧑🏻‍🍳 The Process](#-the-process) • [📚 What I Learned](#-what-i-learned) • [💭 How It Could Be Improved](#-how-it-could-be-improved) • [🚦 How to Run the Project](#-how-to-run-the-project)
 
 <img src="asset/42_grade_125.png" alt="Success 125/100" width="420" />
 
